@@ -62,11 +62,11 @@ function Hero1({ setham }) {
               layout='fill'
               className='object-cover object-center'
             />
-            <div className=' md:hidden absolute flex h-20  text-dark font-medium  items-center '>
+            <div className=' md:hidden w-full absolute flex h-20  text-dark font-medium  items-center '>
               <div className='w-[80%] mx-auto flex  items-center  '>
-                <div className='flex justify-between  '>
+                <div className='flex w-full  '>
                   <h1 className='text-xl '>Aȇsop</h1>
-                  <div className='flex justify-around text-black items-center text-xl   mr-4 '>
+                  <div className='flex justify-around text-black items-center text-xl   ml-auto '>
                     <BiSearch className=' cursor-pointer text-2xl mx-2.5' />
                     <a className='mx-2.5 text-sm cursor-pointer '>Cart</a>
                     <IoReorderTwoOutline
