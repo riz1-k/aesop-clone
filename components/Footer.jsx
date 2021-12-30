@@ -12,7 +12,7 @@ function Footer() {
       <div className=' md:hidden flex flex-col bg-dark   text-white '>
         <div className=' flex-col gap-14 '>
           <div className='  flex-row mt-4  '>
-            <div class='flex flex-col mb-4   justify-center  m-8   '>
+            <div className='flex flex-col mb-4   justify-center  m-8   '>
               <input
                 className='border-2  w-[100%] border-light rounded-sm py-2 px-0 placeholder-white mt-4 bg-dark placeholder-shown:place-content-center  '
                 type='email'
@@ -126,7 +126,7 @@ function Footer() {
         <div className='grid grid-rows-2 bg-dark h-[654px]  text-white '>
           <div className=' grid grid-cols-footer gap-14 '>
             <div className=' w-[500px]  flex-row mt-4 ml-8 '>
-              <div class='flex flex-col mb-4   justify-center  m-5 w-[550px]  '>
+              <div className='flex flex-col mb-4   justify-center  m-5 w-[550px]  '>
                 <input
                   className='border-2 border-light rounded-sm py-2 px-0 placeholder-white mt-4 bg-dark placeholder-shown:place-content-center  '
                   type='email'
